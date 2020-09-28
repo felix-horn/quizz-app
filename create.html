@@ -23,6 +23,22 @@
         <h2>Question:</h2>
 
         <form action=""> <!-- what does the action-class do? -->
+            
+            <label for="question">Question</label>
+            <!-- what the difference between name and id? -->
+            <!-- <input type="text" name="question" id="question" placeholder="Please add your question here."> -->
+            <textarea name="question" id="question" rows="3" cols="30" placeholder="Please add your question here."></textarea>
+
+            <label for="answer">Answer</label>
+            <!-- <input type="text" name="answer" id="answer" placeholder="Please add your answer here."> -->
+            <textarea name="answer" id="answer" rows="3" cols="30" placeholder="Please add your answer here."></textarea>
+
+
+            <label for="tags">Tags</label>
+            <input type="text" name="tags" id="tags" placeholder="Add tags divided by a comma.">
+
+            <!-- or should type="button" be used -->
+            <input type="submit" value="Add Question">
 
         </form>
 
