@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Quizz-App</title>
+    <link rel="stylesheet" href="styles/styles.css" />
     <link
       href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap"
       rel="stylesheet"
@@ -14,51 +15,56 @@
     />
   </head>
   <body>
-    <header>
+    <header class="header center">
       <h1>Quizz-App</h1>
     </header>
 
-    <main>
-      <h2>Question:</h2>
+    <main class="scrolling card-grid">
+      <section class="card">
+        <h2>Question:</h2>
 
-      <!-- bookmarks-icon can be filled or outlined-->
-      <span class="material-icons"> bookmark </span>
+        <!-- bookmarks-icon can be filled or outlined-->
+        <span class="material-icons"> bookmark </span>
 
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Est ipsa ab
-        aliquam voluptates. <br />
-        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laborum
-        voluptatem voluptatum ex, soluta nihil doloribus quo perspiciatis?
-      </p>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Est ipsa ab
+          aliquam voluptates. <br />
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laborum
+          voluptatem voluptatum ex, soluta nihil doloribus quo perspiciatis?
+        </p>
 
-      <!-- button changes to "Hide Answer" when answer is open -->
-      <button type="button">Show Answer</button>
+        <!-- button changes to "Hide Answer" when answer is open -->
+        <button type="button">Show Answer</button>
 
-      <!-- answer shows on a lick -->
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Est ipsa ab
-        aliquam voluptates. <br />
-        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laborum
-        voluptatem voluptatum ex, soluta nihil doloribus quo perspiciatis?
-      </p>
+        <!-- answer shows on a lick -->
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Est ipsa ab
+          aliquam voluptates. <br />
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laborum
+          voluptatem voluptatum ex, soluta nihil doloribus quo perspiciatis?
+        </p>
 
-      <ul>
-        <li>Item 1</li>
-        <li>Item 2</li>
-        <li>Item 3</li>
-        <li>Item 4</li>
-        <li>Item 5</li>
-      </ul>
+        <ul>
+          <li>Item 1</li>
+          <li>Item 2</li>
+          <li>Item 3</li>
+          <li>Item 4</li>
+          <li>Item 5</li>
+        </ul>
+      </section>
     </main>
 
-    <footer>
-      <ul>
-        <!-- bookmarks-icon is filled -->
-        <a href="https://felix-horn.github.io/quizz-app">
-          <img src="images/home-filled.svg" alt="" />
-        </a>
+    <nav class="nav">
+      <a class="center" href="https://felix-horn.github.io/quizz-app">All</a>
+      <a class="center" href="https://felix-horn.github.io/quizz-app/bookmarks"
+        >Bookmarked</a
+      >
+      <a class="center" href="/create">Create</a>
+      <a class="center" href="/profile">Profile</a>
 
-        <!-- bookmarks-icon is filled -->
+      <!-- <img src="images/home-filled.svg" alt="" /></a>
+        
+        
         <a href="https://felix-horn.github.io/quizz-app">
           <span class="material-icons">home</span>
         </a>
@@ -73,8 +79,7 @@
 
         <a href="https://felix-horn.github.io/quizz-app/profile">
           <span class="material-icons-outlined">account_box</span>
-        </a>
-      </ul>
-    </footer>
+        </a> -->
+    </nav>
   </body>
 </html>

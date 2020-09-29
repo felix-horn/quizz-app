@@ -1,5 +1,12 @@
+/* imports different style-files into html-file */
+
 @import './colors.css';
 @import './basic.css';
 @import './utility.css';
+@import './grid-structure.css';
 @import './components/card.css';
 @import './components/header.css';
+@import './components/card.css';
+@import './components/form.css';
+@import './components/navigation.css';
+@import './components/tag-list.css';
