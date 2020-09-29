@@ -1,1 +1,45 @@
 /* basic elements: html, h1, a, p, button, ... */
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  height: 100%;
+}
+
+.header {
+  position: relative;
+}
+
+.scrolling {
+  overflow-y: scroll;
+}
+
+body {
+  display: grid;
+  grid-template-rows: 48px auto 48px; /* header & footer fixed */
+  max-width: 600px;
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 112.5%;
+}
+
+/* code-pen: shadow for header
+  .header:after {
+  content: '';
+  position: absolute;
+  top: 100%;
+  height: 4px;
+  left: 0;
+  width: 100%;
+  background-image: linear-gradient(rgba(70, 0, 30, 0.5), transparent);
+} */
+
+h1 {
+  font-weight: 300;
+}

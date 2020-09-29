@@ -1,1 +1,15 @@
 /* utility classes for padding, margin, ... */
+
+.m-0 {
+  margin: 0;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  padding: 20px;
+}
