@@ -6,7 +6,7 @@
     <title>Quizz-App</title>
     <link rel="stylesheet" href="styles/styles.css" />
     <link
-      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap"
       rel="stylesheet"
     />
   </head>
@@ -16,15 +16,15 @@
     </header>
 
     <main class="scrolling card-grid">
-      <section class="card">
-        <h2 class="m-0">Question:</h2>
+      <!-- ============= card 1 ================ -->
 
-        <!-- bookmarks-icon can be filled or outlined-->
-        <img
-          class="card__bookmark-position"
-          src="images/bookmark_outlined.svg"
-          alt="bookmarded"
-        />
+      <section class="card">
+        <div class="card__bookmark-position">
+          <h2 class="m-0">Question</h2>
+
+          <!-- bookmarks-icon can be filled or outlined-->
+          <img src="images/bookmark-outlined.svg" alt="bookmarked" />
+        </div>
 
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Est ipsa ab
@@ -34,7 +34,38 @@
         </p>
 
         <!-- button changes to "Hide Answer" when answer is open -->
-        <button type="button">Show Answer</button>
+        <button class="button" type="button">Show Answer</button>
+
+        <!-- answer shows on a lick -->
+
+        <ul class="tag-list">
+          <li>Item 1</li>
+          <li>Item 2</li>
+          <li>Item 3</li>
+          <li>Item 4</li>
+          <li>Item 5</li>
+        </ul>
+      </section>
+
+      <!-- ============= card 2 ================ -->
+
+      <section class="card">
+        <div class="card__bookmark-position">
+          <h2 class="m-0">Question</h2>
+
+          <!-- bookmarks-icon can be filled or outlined-->
+          <img src="images/bookmark-filled.svg" alt="bookmarked" />
+        </div>
+
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Est ipsa ab
+          aliquam voluptates. <br />
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laborum
+          voluptatem voluptatum ex, soluta nihil doloribus quo perspiciatis?
+        </p>
+
+        <!-- button changes to "Hide Answer" when answer is open -->
+        <button class="button" type="button">Hide Answer</button>
 
         <!-- answer shows on a lick -->
         <p>
@@ -44,7 +75,7 @@
           voluptatem voluptatum ex, soluta nihil doloribus quo perspiciatis?
         </p>
 
-        <ul>
+        <ul class="tag-list">
           <li>Item 1</li>
           <li>Item 2</li>
           <li>Item 3</li>
@@ -60,7 +91,7 @@
       </a>
 
       <a class="center" href="https://felix-horn.github.io/quizz-app/bookmarks">
-        <img src="images/bookmark_outlined.svg" alt="bookmarks-link" />
+        <img src="images/bookmarks-outlined.svg" alt="bookmarks-link" />
       </a>
 
       <a class="center" href="https://felix-horn.github.io/quizz-app/create">

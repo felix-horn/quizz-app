@@ -1,5 +1,11 @@
 .card {
-  height: 300px;
+  border-style: solid;
+  border-width: 1px;
+  list-style-type: none;
+}
+
+.card__bookmark-position {
+  display: flexbox;
 }
 
 /* space after last card */
@@ -16,9 +22,11 @@
   height: 20px;
 }
 
-.card__bookmark-position {
+/* position as in scribble 
+  .card__bookmark-position {
   position: absolute;
   top: -5px;
   right: 10px;
   overflow: visible;
 }
+ */

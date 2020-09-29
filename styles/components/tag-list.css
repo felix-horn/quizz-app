@@ -1,0 +1,9 @@
+.tag-list {
+  display: flex;
+}
+
+.tag-list > li {
+  border-style: solid;
+  border-width: 1px;
+  list-style-type: none;
+}

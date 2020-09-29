@@ -11,5 +11,12 @@
 }
 
 .card {
+  border-radius: 5px;
   padding: 20px;
+}
+
+.tag-list > li {
+  border-radius: 20px;
+  padding: 0 10px;
+  margin: 5px;
 }
