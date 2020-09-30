@@ -11,16 +11,18 @@
     />
   </head>
   <body>
-    <header class="header center">
+    <header class="header utility_center">
       <h1>Quizz-App</h1>
     </header>
 
     <main class="scrolling card-grid">
       <!-- ============= card 1 ================ -->
 
-      <section class="card">
+      <section
+        class="utility__border utility__border-radius-5 utility__padding-20"
+      >
         <div class="card__bookmark-position">
-          <h2 class="m-0">Question</h2>
+          <h2 class="utility__m-0">Question</h2>
 
           <img src="images/bookmark-outlined.svg" alt="bookmarked" />
         </div>
@@ -33,22 +35,26 @@
         </p>
 
         <!-- button changes to "Hide Answer" when answer is open -->
-        <button class="button" type="button">Show Answer</button>
+        <button class="button utility__border-radius-20" type="button">
+          Show Answer
+        </button>
 
         <!-- answer shows on a lick -->
 
         <ul class="tag-list">
-          <li>Item 1</li>
-          <li>Item 2</li>
-          <li>Item 3</li>
-          <li>Item 4</li>
-          <li>Item 5</li>
+          <li class="utility__border utility__border-radius-20">Item 1</li>
+          <li class="utility__border utility__border-radius-20">Item 2</li>
+          <li class="utility__border utility__border-radius-20">Item 3</li>
+          <li class="utility__border utility__border-radius-20">Item 4</li>
+          <li class="utility__border utility__border-radius-20">Item 5</li>
         </ul>
       </section>
 
       <!-- ============= card 2 ================ -->
 
-      <section class="card">
+      <section
+        class="utility__border utility__border-radius-5 utility__padding-20"
+      >
         <div class="card__bookmark-position">
           <h2 class="m-0">Question</h2>
 
@@ -64,7 +70,9 @@
         </p>
 
         <!-- button changes to "Hide Answer" when answer is open -->
-        <button class="button" type="button">Hide Answer</button>
+        <button class="button utility__border-radius-20" type="button">
+          Hide Answer
+        </button>
 
         <!-- answer shows on a lick -->
         <p>
@@ -75,29 +83,38 @@
         </p>
 
         <ul class="tag-list">
-          <li>Item 1</li>
-          <li>Item 2</li>
-          <li>Item 3</li>
-          <li>Item 4</li>
-          <li>Item 5</li>
+          <li class="utility__border utility__border-radius-20">Item 1</li>
+          <li class="utility__border utility__border-radius-20">Item 2</li>
+          <li class="utility__border utility__border-radius-20">Item 3</li>
+          <li class="utility__border utility__border-radius-20">Item 4</li>
+          <li class="utility__border utility__border-radius-20">Item 5</li>
         </ul>
       </section>
     </main>
 
-    <nav class="nav">
-      <a class="center" href="https://felix-horn.github.io/quizz-app">
+    <nav class="nav utility__border-top">
+      <a class="utility_center" href="https://felix-horn.github.io/quizz-app">
         <img src="images/home-filled.svg" alt="home-link" />
       </a>
 
-      <a class="center" href="https://felix-horn.github.io/quizz-app/bookmarks">
+      <a
+        class="utility_center"
+        href="https://felix-horn.github.io/quizz-app/bookmarks"
+      >
         <img src="images/bookmarks-outlined.svg" alt="bookmarks-link" />
       </a>
 
-      <a class="center" href="https://felix-horn.github.io/quizz-app/create">
+      <a
+        class="utility_center"
+        href="https://felix-horn.github.io/quizz-app/create"
+      >
         <img src="images/create_box-outlined.svg" alt="create-link" />
       </a>
 
-      <a class="center" href="https://felix-horn.github.io/quizz-app/profile">
+      <a
+        class="utility_center"
+        href="https://felix-horn.github.io/quizz-app/profile"
+      >
         <img src="images/profile-outlined.svg" alt="profile-link" />
       </a>
     </nav>

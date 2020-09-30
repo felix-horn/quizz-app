@@ -1,0 +1,11 @@
+.profile__pic-name-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.profile__pic {
+  border-radius: 100%;
+  width: 150px;
+}

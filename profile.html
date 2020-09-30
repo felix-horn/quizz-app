@@ -11,14 +11,16 @@
     />
   </head>
   <body>
-    <header>
+    <header class="header utility_center">
       <h1>Your Profile</h1>
     </header>
 
-    <main>
-      <img src="images/felix.jpg" alt="" />
+    <main class="scrolling utility__padding-top-41 utility__padding-25">
+      <div class="profile__pic-name-box">
+        <img class="profile__pic" src="images/felix.jpg" alt="" />
 
-      <h2>Name</h2>
+        <h2>Felix Horn</h2>
+      </div>
 
       <p>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Est ipsa ab
@@ -29,14 +31,17 @@
 
       <h2>Your Skills</h2>
 
-      <ul>
-        <li>Item 1</li>
-        <li>Item 2</li>
-        <li>Item 3</li>
-        <li>Item 4</li>
+      <ul class="tag-list">
+        <li class="utility__border utility__border-radius-20">Item 1</li>
+        <li class="utility__border utility__border-radius-20">Item 2</li>
+        <li class="utility__border utility__border-radius-20">Item 3</li>
+        <li class="utility__border utility__border-radius-20">Item 4</li>
+        <li class="utility__border utility__border-radius-20">Item 5</li>
       </ul>
 
-      <button>Logout</button>
+      <button class="button utility__border-radius-20 utility_center">
+        Logout
+      </button>
     </main>
 
     <nav class="nav">

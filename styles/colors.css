@@ -1,28 +1,12 @@
 /* color variables */
 
-.header {
-  background: rgb(255, 255, 255);
-  color: rgb(0, 0, 0);
-  box-shadow: 0rem 0rem 1rem lightgray;
-}
+:root {
+  --white: rgb(255, 255, 255);
+  --transparent-white: rgba(255, 254, 254, 0.95);
 
-.button {
-  background-color: #4285f4;
-  color: white;
-}
+  --lightgray: rgb(221, 221, 221);
 
-.nav {
-  background: rgba(255, 254, 254, 0.95);
-  box-shadow: 0rem 1rem 1rem lightgray;
-  border: white;
-  border-top: rgb(221, 221, 221);
-}
+  --black: rgb(0, 0, 0);
 
-.card {
-  background: rgb(255, 255, 255);
-  border: rgb(221, 221, 221);
-}
-
-.tag-list > li {
-  border: rgb(221, 221, 221);
+  --blue: #4285f4;
 }

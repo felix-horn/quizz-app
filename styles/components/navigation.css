@@ -3,8 +3,7 @@
   bottom: 0;
   width: 100vw;
   height: 55px;
-  border-style: solid;
-  border-width: 1px;
+  background: var(--transparent-white);
   display: flex;
   justify-content: space-around;
   align-items: center;

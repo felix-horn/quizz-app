@@ -1,30 +1,60 @@
 /* utility classes for padding, margin, ... */
 
-.m-0 {
+/* ============= margins / paddings ============= */
+
+.utility__m-0 {
+  /* "Question" on question-card */
   margin: 0;
 }
 
-.center {
+.utility__padding-20 {
+  padding: 20px;
+}
+
+.utility__padding-25 {
+  padding: 25px;
+}
+
+.utility__padding-top-41 {
+  padding-top: 41px;
+}
+
+/* padding: 20px 20px; */
+
+.utility_center {
+  /* h1, icons in nav, button create/add question */
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.card {
-  border-radius: 5px;
-  padding: 20px;
-}
-
 .tag-list > li {
-  border-radius: 20px;
   padding: 0 10px;
   margin: 5px;
+  list-style-type: none;
+  width: auto;
 }
 
-.utility__border-radius {
-  border-radius: 5px;
+/* ============= borders ============= */
+
+.utility__border {
+  /* border for create input fields */
   border-style: solid;
   border-width: 1px;
-  font-family: 'Montserrat', sans-serif;
-  font-size: 112.5%;
+  border-color: var(--lightgray);
+}
+
+.utility__border-radius-5 {
+  border-radius: 5px;
+}
+
+.utility__border-radius-20 {
+  border-radius: 20px;
+}
+
+.utility__border-top {
+  border-style: solid;
+  border-width: 1px;
+  border: var(--white);
+  border-top: var(--lightgray);
 }

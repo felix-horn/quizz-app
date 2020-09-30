@@ -1,11 +1,5 @@
 .tag-list {
   display: flex;
   flex-wrap: wrap;
-}
-
-.tag-list > li {
-  border-style: solid;
-  border-width: 1px;
-  list-style-type: none;
-  width: auto;
+  justify-content: flex-start;
 }

@@ -11,18 +11,20 @@
     />
   </head>
   <body>
-    <header class="header center">
+    <header class="header utility_center">
       <h1>Create</h1>
     </header>
 
     <main class="scrolling">
-      <form class="form__direction-column">
+      <form
+        class="form__direction-column utility__padding-top-41 utility__padding-25"
+      >
         <div class="form__question-pair">
           <label class="basics__label" for="question">Question</label>
           <!-- what the difference between name and id? -->
           <!-- <input type="text" name="question" id="question" placeholder="Please add your question here."> -->
           <textarea
-            class="utility__border-radius"
+            class="utility__border utility__border-radius-5 basics__input-field-font"
             name="question"
             id="question"
             rows="3"
@@ -35,7 +37,7 @@
           <label class="basics__label" for="answer">Answer</label>
           <!-- <input type="text" name="answer" id="answer" placeholder="Please add your answer here."> -->
           <textarea
-            class="utility__border-radius"
+            class="utility__border utility__border-radius-5 basics__input-field-font"
             name="answer"
             id="answer"
             rows="3"
@@ -47,7 +49,7 @@
         <div class="form__question-pair">
           <label class="basics__label" for="tags">Tags</label>
           <input
-            class="utility__border-radius"
+            class="utility__border utility__border-radius-5 basics__input-field-font"
             type="text"
             name="tags"
             id="tags"
@@ -55,27 +57,40 @@
           />
         </div>
 
-        <div class="center">
+        <div class="utility_center">
           <!-- or should type="button" be used -->
-          <input class="button" type="submit" value="Add Question" />
+          <input
+            class="button utility__border-radius-20"
+            type="submit"
+            value="Add Question"
+          />
         </div>
       </form>
     </main>
 
     <nav class="nav">
-      <a class="center" href="https://felix-horn.github.io/quizz-app">
+      <a class="utility_center" href="https://felix-horn.github.io/quizz-app">
         <img src="images/home-outline.svg" alt="home-link" />
       </a>
 
-      <a class="center" href="https://felix-horn.github.io/quizz-app/bookmarks">
+      <a
+        class="utility_center"
+        href="https://felix-horn.github.io/quizz-app/bookmarks"
+      >
         <img src="images/bookmarks-outlined.svg" alt="bookmarks-link" />
       </a>
 
-      <a class="center" href="https://felix-horn.github.io/quizz-app/create">
+      <a
+        class="utility_center"
+        href="https://felix-horn.github.io/quizz-app/create"
+      >
         <img src="images/create_box-filled.svg" alt="create-link" />
       </a>
 
-      <a class="center" href="https://felix-horn.github.io/quizz-app/profile">
+      <a
+        class="utility_center"
+        href="https://felix-horn.github.io/quizz-app/profile"
+      >
         <img src="images/profile-outlined.svg" alt="profile-link" />
       </a>
     </nav>
