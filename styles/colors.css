@@ -12,8 +12,10 @@
 }
 
 .nav {
-  background: rgba(255, 254, 254, 0.11);
+  background: rgba(255, 254, 254, 0.95);
   box-shadow: 0rem 1rem 1rem lightgray;
+  border: white;
+  border-top: rgb(221, 221, 221);
 }
 
 .card {
