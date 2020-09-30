@@ -11,7 +11,8 @@ html {
 body {
   display: grid;
   grid-template-rows: 48px auto 48px; /* header & footer fixed */
-  max-width: 600px;
+  /* max-width: 600px; */
+  /*   width: 100vw; */
   position: fixed;
   left: 0;
   top: 0;
