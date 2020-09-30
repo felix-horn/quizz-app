@@ -5,7 +5,8 @@
 }
 
 .card__bookmark-position {
-  display: flexbox;
+  display: flex;
+  justify-content: space-between;
 }
 
 /* space after last card */

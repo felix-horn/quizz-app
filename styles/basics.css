@@ -29,14 +29,10 @@ h1 {
 
 /* ================================================= */
 
-.header {
-  position: relative;
-}
-
 .card-grid {
   display: grid;
   align-content: start;
-  gap: 20px;
+  gap: 10px;
   padding: 20px 4px;
 }
 
