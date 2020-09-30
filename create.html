@@ -1,77 +1,83 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Quizz-App</title>
+    <link rel="stylesheet" href="styles/styles.css" />
     <link
-      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap"
       rel="stylesheet"
     />
-    <link
-        href="https://fonts.googleapis.com/css?family=Material+Icons|Material+Icons+Outlined" rel="stylesheet"
-    />
-</head>
-<body>
-    <header>
-        <h1>Create</h1>
+  </head>
+  <body>
+    <header class="header center">
+      <h1>Create</h1>
     </header>
-    
-    <main>
-        <h2>Question:</h2>
 
-        <form action=""> <!-- what does the action-class do? -->
-            
-            <label for="question">Question</label>
-            <!-- what the difference between name and id? -->
-            <!-- <input type="text" name="question" id="question" placeholder="Please add your question here."> -->
-            <textarea name="question" id="question" rows="3" cols="30" placeholder="Please add your question here."></textarea>
+    <main class="scrolling">
+      <form class="form__direction-column">
+        <div class="form__question-pair">
+          <label class="basics__label" for="question">Question</label>
+          <!-- what the difference between name and id? -->
+          <!-- <input type="text" name="question" id="question" placeholder="Please add your question here."> -->
+          <textarea
+            class="utility__border-radius"
+            name="question"
+            id="question"
+            rows="3"
+            cols="30"
+            placeholder="Please add your question here."
+          ></textarea>
+        </div>
 
-            <label for="answer">Answer</label>
-            <!-- <input type="text" name="answer" id="answer" placeholder="Please add your answer here."> -->
-            <textarea name="answer" id="answer" rows="3" cols="30" placeholder="Please add your answer here."></textarea>
+        <div class="form__question-pair">
+          <label class="basics__label" for="answer">Answer</label>
+          <!-- <input type="text" name="answer" id="answer" placeholder="Please add your answer here."> -->
+          <textarea
+            class="utility__border-radius"
+            name="answer"
+            id="answer"
+            rows="3"
+            cols="30"
+            placeholder="Please add your answer here."
+          ></textarea>
+        </div>
 
+        <div class="form__question-pair">
+          <label class="basics__label" for="tags">Tags</label>
+          <input
+            class="utility__border-radius"
+            type="text"
+            name="tags"
+            id="tags"
+            placeholder="Add tags divided by a comma."
+          />
+        </div>
 
-            <label for="tags">Tags</label>
-            <input type="text" name="tags" id="tags" placeholder="Add tags divided by a comma.">
-
-            <!-- or should type="button" be used -->
-            <input type="submit" value="Add Question">
-
-        </form>
-
-
-
+        <div class="center">
+          <!-- or should type="button" be used -->
+          <input class="button" type="submit" value="Add Question" />
+        </div>
+      </form>
     </main>
 
-    <footer>
-        <ul>
-            <a href="https://felix-horn.github.io/quizz-app">
-                <span class="material-icons-outlined">
-                    home
-                </span>
-            </a>
+    <nav class="nav">
+      <a class="center" href="https://felix-horn.github.io/quizz-app">
+        <img src="images/home-outline.svg" alt="home-link" />
+      </a>
 
-            <a href="https://felix-horn.github.io/quizz-app/bookmarks">
-                <span class="material-icons-outlined">
-                    bookmarks
-                </span>
-            </a>
+      <a class="center" href="https://felix-horn.github.io/quizz-app/bookmarks">
+        <img src="images/bookmarks-outlined.svg" alt="bookmarks-link" />
+      </a>
 
-            <!-- bookmarks-icon is filled -->            
-            <a href="https://felix-horn.github.io/quizz-app/create">
-                <span class="material-icons">
-                    add_box
-                </span>
-            </a>
+      <a class="center" href="https://felix-horn.github.io/quizz-app/create">
+        <img src="images/create_box-filled.svg" alt="create-link" />
+      </a>
 
-            <a href="https://felix-horn.github.io/quizz-app/profile">
-                <span class="material-icons-outlined">
-                    account_box
-                </span>
-            </a>
-            
-        </ul>
-    </footer>
-</body>
+      <a class="center" href="https://felix-horn.github.io/quizz-app/profile">
+        <img src="images/profile-outlined.svg" alt="profile-link" />
+      </a>
+    </nav>
+  </body>
 </html>

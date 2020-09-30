@@ -1,0 +1,12 @@
+.form__direction-column {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 20px 60px;
+}
+
+.form__question-pair {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 40px;
+}
