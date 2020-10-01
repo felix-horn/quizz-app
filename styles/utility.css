@@ -7,6 +7,10 @@
   margin: 0;
 }
 
+.utility__padding-sides-10 {
+  padding: 0 10px;
+}
+
 .utility__padding-20 {
   padding: 20px;
 }
@@ -36,6 +40,10 @@
 }
 
 /* ============= borders ============= */
+
+:root {
+  --radius-small: 5px;
+}
 
 .utility__border {
   /* border for create input fields */
