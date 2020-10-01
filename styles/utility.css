@@ -53,8 +53,5 @@
 }
 
 .utility__border-top {
-  border-style: solid;
-  border-width: 1px;
-  border: var(--white);
-  border-top: var(--lightgray);
+  border-top: 1px solid var(--lightgray);
 }

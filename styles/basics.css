@@ -46,6 +46,7 @@ h2 {
   /* font for input-field on create-tab, as body does not effect this */
   font-family: 'Montserrat', sans-serif;
   font-size: 100%;
+  resize: none;
 }
 
 /* ================================================= */
