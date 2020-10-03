@@ -73,10 +73,12 @@ h2 {
   background-image: linear-gradient(rgba(70, 0, 30, 0.5), transparent);
 } */
 
-.button {
+.basics__button {
   border: none;
+  border-radius: var(--radius-small);
   background-color: var(--blue);
   color: var(--white);
+  padding: 0px var(--padding-tag);
   font-size: 112.5%;
   font-family: 'Montserrat', sans-serif;
 }
