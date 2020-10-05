@@ -1,6 +1,27 @@
 /* utility classes for padding, margin, ... */
 
+/* ================= wrappers ===================== */
+
+.utility__flex-start {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 0;
+}
+
+.utility__flex-start > li {
+  padding: 0 var(--padding-tag);
+  margin: 5px;
+  list-style-type: none;
+  width: auto;
+}
+
 /* ============= margins / paddings ============= */
+
+:root {
+  --padding-tag: 10px;
+}
 
 .utility__m-0 {
   /* "Question" on question-card */
@@ -23,8 +44,6 @@
   padding-top: 41px;
 }
 
-/* padding: 20px 20px; */
-
 .utility_center {
   /* h1, icons in nav, button create/add question */
   display: flex;
@@ -32,21 +51,15 @@
   align-items: center;
 }
 
-.tag-list > li {
-  padding: 0 10px;
-  margin: 5px;
-  list-style-type: none;
-  width: auto;
-}
-
 /* ============= borders ============= */
 
 :root {
   --radius-small: 5px;
+  --radius-large: 20px;
 }
 
 .utility__border {
-  /* border for create input fields */
+  /* border for question cards, tag list, create input fields */
   border-style: solid;
   border-width: 1px;
   border-color: var(--lightgray);
@@ -62,4 +75,9 @@
 
 .utility__border-top {
   border-top: 1px solid var(--lightgray);
+}
+
+.utility__border-bottom {
+  border-bottom: 1px solid var(--lightgray);
+  padding-bottom: 20px;
 }
