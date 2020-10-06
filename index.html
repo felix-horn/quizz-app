@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Quizz-App</title>
     <link rel="stylesheet" href="styles/styles.css" />
+    <link rel="javascript" href="javascript.json" />
     <link
       href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap"
       rel="stylesheet"
@@ -24,7 +25,17 @@
         <div class="card__bookmark-position">
           <h2 class="utility__m-0">Question</h2>
 
-          <img src="images/bookmark-outlined.svg" alt="bookmarked" />
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            height="24"
+            viewBox="0 0 24 24"
+            width="24"
+          >
+            <path d="M0 0h24v24H0z" fill="none" />
+            <path
+              d="M17 3H7c-1.1 0-1.99.9-1.99 2L5 21l7-3 7 3V5c0-1.1-.9-2-2-2zm0 15l-5-2.18L7 18V5h10v13z"
+            />
+          </svg>
         </div>
 
         <p>
@@ -59,10 +70,34 @@
         class="utility__border utility__border-radius-5 utility__padding-20"
       >
         <div class="card__bookmark-position">
-          <h2 class="m-0">Question</h2>
+          <h2 class="utility__m-0">Question</h2>
 
-          <!-- bookmarks-icon can be filled or outlined-->
-          <img src="images/bookmark-filled.svg" alt="bookmarked" />
+          <svg
+            id="card2filled"
+            xmlns="http://www.w3.org/2000/svg"
+            height="24"
+            viewBox="0 0 24 24"
+            width="24"
+          >
+            <path d="M0 0h24v24H0z" fill="none" />
+            <path
+              d="M17 3H7c-1.1 0-1.99.9-1.99 2L5 21l7-3 7 3V5c0-1.1-.9-2-2-2z"
+            />
+          </svg>
+
+          <svg
+            id="card2outlined"
+            class="display--none"
+            xmlns="http://www.w3.org/2000/svg"
+            height="24"
+            viewBox="0 0 24 24"
+            width="24"
+          >
+            <path d="M0 0h24v24H0z" fill="none" />
+            <path
+              d="M17 3H7c-1.1 0-1.99.9-1.99 2L5 21l7-3 7 3V5c0-1.1-.9-2-2-2zm0 15l-5-2.18L7 18V5h10v13z"
+            />
+          </svg>
         </div>
 
         <p>

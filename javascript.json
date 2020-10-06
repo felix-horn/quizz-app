@@ -1,0 +1,12 @@
+let card2filled = document.querySelector('#card2filled')
+let card2outlined = document.querySelector('#card2outlined')
+
+card2filled.addEventListener('click', () => {
+  card2outlined.classList.remove('display--none')
+  card2filled.classList.add('display--none')
+})
+
+card2outlined.addEventListener('click', () => {
+    card2outlined.classList.add('display--none')
+    card2filled.classList.remove('display--none')
+  })
